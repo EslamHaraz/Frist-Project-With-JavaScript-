@@ -288,4 +288,7 @@ document.addEventListener("click",(e)=>{
 ulLinks.onclick=function(e) {
     e.stopPropagation()
 }
+let date= new Date()
+let Footer = document.querySelector("footer")
+Footer.innerHTML=`Created With Love By Osama Elzero${date.getFullYear()}&#10084;&#65039;`
 
